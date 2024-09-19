@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARD</title>
+    <style>
+        body {
+            background-color: thistle;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .content {
+            background-color: white;
+            width: 210px;
+            height: 244px;
+            border-radius: 7px;
+
+        }
+
+        .content p {
+            font-size: small;
+            font-style: italic;
+            padding: 4px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .content h1 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+
+        .image {
+            padding: 4px;
+            border: 2px;
+            border-radius: 80px;
+        }
+
+        .image img {
+            border-radius: 5px;
+        }
+
+        .capsules span {
+            font-size: 10px;
+            border: 2px solid green;
+            border-radius: 5px;
+            padding: 3px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: center;
+            margin-left: 5px;
+        }
+
+        .button {
+            text-align: center;
+            padding: 3px;
+            background-color: rgb(215, 43, 123);
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+
+        .button button {
+            border: 1px solid black;
+            border-radius: 4px;
+            background-color: green;
+
+        }
+
+        .button button:hover {
+            cursor: pointer;
+            background-color: aliceblue;
+
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="content">
+        <div class="image">
+            <img width="202" height="90 px"
+                src="https://img.freepik.com/premium-photo/beach-scene-with-dock-palm-trees-wooden-walkway_924629-380063.jpg?w=740"
+                alt="pic">
+        </div>
+        <div class="capsules">
+            <span> Beaches</span>
+            <span> Hotels</span>
+            <span>Spa</span>
+            <span>Restaurants</span>
+
+        </div>
+        <div class="content">
+            <h1>MALDIVES</h1>
+            <p>Come to the Maldives! Experience crystal-clear waters, stunning beaches, luxurious resorts, and
+                unforgettable sunsets. Discover paradise and create memories that last a lifetime! </p>
+            <p>SAY YES TO THE AMAZING TRIP !!! ❤️ (❁´◡`❁)</p>
+
+        </div>
+
+        <div class="button">
+            <button>BOOK NOW</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
